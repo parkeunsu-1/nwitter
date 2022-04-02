@@ -57,6 +57,8 @@
 - App.js 파일을 이동하였으니 App.js를 참고하는 모든 파일의 import문을 수정해야함
   -> import App from "./components/App";
 ```
+> 라우터 설치
+``` npm install react-router-dom```
 
 ## `[3월 23일]`
 ### 1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
