@@ -30,6 +30,7 @@
       import 'firebase/compat/auth';
       import 'firebase/compat/firestore';
       ```
+### 3. 파이어베이스 비밀키
 
 ## `[3월 23일]`
 ### 1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
