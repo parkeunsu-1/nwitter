@@ -51,11 +51,11 @@
 ### 5. 라우터 준비하기
 > 라우터란 ? 주소 표시줄에 주소를 입력했을때 어떤 컴포넌트를 보여 줄지 결정하는 역할을 함
 ```
-페이지를 routes 폴더에, 구성요소들을 components 폴더에 나눠 저장한다.
-routes <- Auth.js, EditProfile.js, Home.js, Profile.js 파일 새로 생성
-components <- App.js 이동
-App.js 파일을 이동하였으니 App.js를 참고하는 모든 파일의 import문을 수정해야함
-import App from "./components/App";
+- 페이지를 routes 폴더에, 구성요소들을 components 폴더에 나눠 저장한다.
+- routes <- Auth.js, EditProfile.js, Home.js, Profile.js 파일 새로 생성
+- components <- App.js 이동
+- App.js 파일을 이동하였으니 App.js를 참고하는 모든 파일의 import문을 수정해야함
+  -> import App from "./components/App";
 ```
 
 ## `[3월 23일]`
