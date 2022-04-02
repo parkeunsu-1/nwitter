@@ -9,7 +9,11 @@
 4. git config user.name "parkeunsu-1"
 5. gif config user.email "tkfkdgo77855@naver.com"
 6. git remote add origin "https://github.com/parkeunsu-1/nwitter.git"
-7. git push -u origin master기
+7. git push -u origin master
+
+명령어 입력후 Github로 Push 정상적으로 실행됨 확인
+클론코딩트위터 책 p.30~33 참고하여 ./package.json, .src/index.js, .src/App.js 파일 수정한후 Github로 Push
+Github 페이지에서 master로 변경후 내가 수정한 파일 정상적으로 수정되어 올려져 있는지 확인
 ## Available Scripts
 
 In the project directory, you can run:
