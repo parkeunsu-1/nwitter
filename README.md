@@ -1,6 +1,7 @@
 # 602277107 박은수
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[3월 27일]
+개인 노트북으로 Visual Studio Code Github로 Push 도전
+구글링을 하며 push 경로 지정
 
 ## Available Scripts
 
