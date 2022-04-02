@@ -3,7 +3,8 @@
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
-```1. "https://firebase.google.com" 접속
+```
+1. "https://firebase.google.com" 접속
 2. 시작하기 클릭
 3. 프로젝트 만들기 클릭
 4. 프로젝트 이름 지정하는 화면나오면 nwitter로 지정
@@ -17,14 +18,18 @@
 5. src 폴더에 firebase.js 새로 만들어 앞에서 복사한 코드 입력
   * npm install firebase 입력시 주의사항
     > [firebase 8버전 이하]
-     ``` import firebase from 'firebase/app';
+     ``` 
+      import firebase from 'firebase/app';
       import 'firebase/auth';
-      import 'firebase/firestore';```
+      import 'firebase/firestore';
+      ```
 
     > [firebase 9버전 이상]
-      ```import firebase from 'firebase/compat/app';
+      ```
+      import firebase from 'firebase/compat/app';
       import 'firebase/compat/auth';
-      import 'firebase/compat/firestore';```
+      import 'firebase/compat/firestore';
+      ```
 
 ## `[3월 23일]`
 ### 1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
