@@ -29,13 +29,15 @@
 ## `[3월 23일]`
 ### 1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
 구글링을 하며 push 경로 지정
-```1. git init
+```
+   1. git init
    2. git add .
    3. git commit -m "init git"
    4. git config user.name "parkeunsu-1"
    5. gif config user.email "tkfkdgo77855@naver.com"
    6. git remote add origin "https://github.com/parkeunsu-1/nwitter.git"
-   7. git push -u origin master```
+   7. git push -u origin master
+   ```
 
 명령어 입력후 Github로 Push 정상적으로 실행됨 확인
 클론코딩트위터 책 p.30~33 참고하여 ./package.json, .src/index.js, .src/App.js 파일 수정한후 Github로 Push
