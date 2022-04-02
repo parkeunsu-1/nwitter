@@ -3,7 +3,7 @@
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
-1. "firebase.google.com" 접속
+1. "https://firebase.google.com" 접속
 2. 시작하기 클릭
 3. 프로젝트 만들기 클릭
 4. 프로젝트 이름 지정하는 화면나오면 nwitter로 지정
