@@ -63,6 +63,22 @@
 ``` 
 npm install react-router-dom
 ```
+> 이후 라우터 설정
+```
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
+
+const AppRouter = () => {
+  return(
+    <Router>
+      <Switch>
+        <Route />
+      </Switch>
+    </Router>
+  )
+};
+
+export default AppRouter; 
+```
 
 ## `[3월 23일]`
 ### 1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
