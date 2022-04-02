@@ -34,7 +34,7 @@
       ```
 ### 3. 파이어베이스 비밀키란?
 
-firebase.js 파일 내 apikey와 같은 값들이 파이어베이스에 접속하는 비밀키로 쓰인다.
+> firebase.js 파일 내 apikey와 같은 값들이 파이어베이스에 접속하는 비밀키로 쓰인다.
 ![캡처](https://user-images.githubusercontent.com/100770547/161374155-89196816-3273-45f2-b3e5-5930a7f31f4d.PNG)
 
 ## `[3월 23일]`
