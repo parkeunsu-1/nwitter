@@ -15,7 +15,7 @@
 3. firebaseConfig값 미리 복사
 4. nwitter 폴더에서 >npm install firebase
 5. src 폴더에 firebase.js 새로 만들어 앞에서 복사한 코드 입력
-  * > npm install firebase 입력시 주의사항
+  * npm install firebase 입력시 주의사항
   * > [firebase 8버전 이하]
     1. import firebase from 'firebase/app';
     2. import 'firebase/auth';
