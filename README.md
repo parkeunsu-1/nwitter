@@ -1,7 +1,7 @@
 # 602277107 박은수
 
 ### `[3월 23일]`
-1. 개인 노트북으로 Visual Studio Code Github로 Push 도전
+개인 노트북으로 Visual Studio Code Github로 Push 도전
 구글링을 하며 push 경로 지정
 1. git init
 2. git add .
