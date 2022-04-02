@@ -3,7 +3,11 @@
 ### `[3월 27일]`
 개인 노트북으로 Visual Studio Code Github로 Push 도전
 구글링을 하며 push 경로 지정
-
+1. 상단 링크의 홈페이지 접속하기
+2. 구글 아이디 로그인 후 시작하기 클릭하기
+3. 프로젝트 만들기 클릭 후 프로젝트 이름 지정해주기(+ Firebase 약관 동의)
+4. 구글 애널리틱스 사용 설정 끄기
+5. 프로젝트 만들기 클릭 후 프로젝트 생성하기
 ## Available Scripts
 
 In the project directory, you can run:
