@@ -92,7 +92,7 @@ React는 클래스형 컴포넌트와 함수형 컴포넌트 두 가지 형태�
 ```
 * React Hooks에서 사용하는 useState 함수
 ```
-React Hooks를 사용하기 위해서는 useState 함수를 사용해야 한다.
+React Hooks를 사용하기 위해서는 useState 함수를 사용하면 된다.
 useState 함수는 아래 예시와 같이 인자로 [상태, 상태관리함수, 이름]과 같은 형태의 배열을 입력 받는다.
 [isLoggedIn, setIsLoggedIn] = useState(false)
 ```
