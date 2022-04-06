@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import App from "conponents/App";
+import App from "components/App";
 //import firebase from 'firebase/compat/app';
 //import 'firebase/compat/auth';
 //import 'firebase/compat/firestore';
