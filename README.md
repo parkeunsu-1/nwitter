@@ -1,5 +1,23 @@
 # 602277107 박은수
 
+## `[4월 6일]`
+### 1. components/Router.js 내 Switch 에러 해결 방법
+```
+1. Switch를 Routes로 변경
+2. react-router-dom 버전 낮춰주기
+  - > npm i react-router-dom@5.2.0
+```
+### 2. 파이어베이스 로그인 준비하기
+* 연도를 출력해보자
+  ```
+   <footer>&copy; {new Date().getFullYear()} Nwitter</footer
+   (자바스크립트 코드를 삽입할 때는 코드를 중괄호로 감싸주어야함)
+  ```
+* firebase.js의 파일 이름 바꾸기
+  ```
+    npm install로 설치한 패키지 이름이 파일 이름과 같으면 오류가 발생하기 때문에
+    firebase.js -> fbase.js 로 파일 이름을 변경해준다.
+  ```
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
