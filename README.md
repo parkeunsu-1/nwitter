@@ -5,8 +5,11 @@
 ```
 1. Switch를 Routes로 변경
 2. react-router-dom 버전 낮춰주기
- - > npm i react-router-dom@5.2.0
+  - > npm i react-router-dom@5.2.0
 ```
+### 2. 파이어베이스 로그인 준비하기
+#### 연도를 출력해보자
+```> <footer>&copy; {new Date().getFullYear()} Nwitter</footer```
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
