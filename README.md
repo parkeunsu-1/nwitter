@@ -15,7 +15,8 @@
   ```
 * firebase.js의 파일 이름 바꾸기
   ```
-    npm install로 설치한 패키지 이름이 파일 이름과 같으면 오류가 발생하기 때문에 firebase.js -> fbase.js 로 파일 이름을 변경해준다.
+    npm install로 설치한 패키지 이름이 파일 이름과 같으면 오류가 발생하기 때문에
+    firebase.js -> fbase.js 로 파일 이름을 변경해준다.
   ```
 
 ## `[3월 30일]`
