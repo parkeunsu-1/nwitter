@@ -8,8 +8,10 @@
   - > npm i react-router-dom@5.2.0
 ```
 ### 2. 파이어베이스 로그인 준비하기
-#### 연도를 출력해보자
-```> <footer>&copy; {new Date().getFullYear()} Nwitter</footer```
+#### 2-1. 연도를 출력해보자
+```> <footer>&copy; {new Date().getFullYear()} Nwitter</footer
+자바스크립트 코드를 삽입할 때는 코드를 중괄호로 감싸주어야함
+```
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
