@@ -1,5 +1,11 @@
 # 602277107 박은수
 
+## `[4월 6일]`
+### 1. components/Router.js 내 Switch 에러 해결 방법
+```
+1. Switch를 Routes로 변경
+2. react-router-dom 버전 낮춰주기
+ - > npm i react-router-dom@5.2.0
 
 ## `[3월 30일]`
 ### 1. 파이어 베이스 설정하기
