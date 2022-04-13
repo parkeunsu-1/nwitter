@@ -7,6 +7,16 @@ npm install firebase@8.8.0
 ```
 
 * 파이어 베이스 인증 설정하기
+  ```
+    1. https://console.firebase.google.com 접속
+    2. 이전에 만들었던 nwitter 프로젝트 선택
+    3. 왼쪽 Authentication 선택
+    4. 시작하기 클릭
+    5. Users 탭 클릭
+    6. 로그인 방법 설정 클릭
+    7. 이메일/비밀번호 사용 설정 ON
+    8. 구글 소셜 로그인 사용 설정 ON, 본인 구글 이메일 입력
+  ```
 
 
 ## `[4월 6일]`
