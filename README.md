@@ -29,9 +29,9 @@ npm install firebase@8.8.0
     </form> 엘리먼트 사용
  ```
 * 로그인 폼이 상태를 업데이트 하도록 만들기
-```
-form 엘리먼트가 실행되도록 만드려면 useState 함수로 상태를 만들어주고, onChange, onSubmit 함수로 이벤트를 연결해주어야함
-```
+  ```
+    form 엘리먼트가 실행되도록 만드려면 useState 함수로 상태를 만들어주고, onChange, onSubmit 함수로 이벤트를 연결해주어야함
+  ```
 
 
 ## `[4월 6일]`
