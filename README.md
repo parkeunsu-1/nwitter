@@ -33,6 +33,6 @@ expand_less
 4. 콘솔을 제공한다.
 5. Analytics를 제공한다.
 
-*  베이스의 단점
+> 파이어 베이스의 단점
 1. 종종 서버의 응답속도가 느려진다.
 2. Firebase의 데이터베이스인 FireStore(신버전)나 RealTimeDatabase(구버전) 모두 쿼리가 매우 빈약하다.
