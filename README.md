@@ -16,6 +16,20 @@ local 옵션은 웹 브라우저를 종료해도 로그인한 사용자의 정�
  ```
  none 옵션은 사용자 정보를 기억하지 않아 새로고침하면 로그인이 풀림
  ```
+### 3. 사용자 정보가 저장되어 있는 곳 살펴보기
+```
+개발자 도구의 Application 탭 > Storage > IndexedDB > firebaseLocalStorageDB > firebaseLocalStorage
+```
+### 4. 딜레이 눈으로 확인하기
+```
+setInterval 함수 이용하기
+setInterval(()=> console.log(authService.currentUser), 2000);
+setInterval 함수의 시간 단위는 밀리초이다. 따라서 2초 간격을 위해 2000 입력
+```
+### 5. 로그아웃은 어떻게?
+```
+IndexedDB 를 clear 하면 로그아웃 가능
+```
 ## `[4월14일]`
 ### 1. 파이어 베이스 버전 낮추기
 ```
