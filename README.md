@@ -17,6 +17,10 @@ export const dbService =firebase.firestore();
  ```
  get 함수는 add 함수처럼 단순히 1번만 실행해서 읽어올수 없음(문서의 개수가 많으면 forEach 함수로 가공해야함으로)
  ```
+### 4. 받은 데이터로 게시물 목록 만들기
+```
+[...potato, document.data()]가 아니라 [document.data(),...potato] 와 같이 코드를 작성하면 새 데이터의 상태를 맨앞으로 배치할수 있음
+```
  
 ## `[5월4일]`
 ### 1. provider 적용하기
