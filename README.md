@@ -1,4 +1,23 @@
 # 602277107 박은수
+## `[5월11일]`
+### 1. 리액트에서 파이어베이스 데이터베이스 사용하기
+```
+import "firebase/firestore";
+export const dbService =firebase.firestore();
+```
+### 2. 파이어베이스에 데이터 저장하기(CRUD 중 CREATE)
+```
+1. dbService.collection("nweets")은 컬렉션 생성
+2. .add({ text:nweet, createAt:Date.now()})은 해당 컬렉션에 문서를 생성
+3. 저장 완료한 다음 setNweet("")로 nweet 의 상태를 빈 문자열로 초기화
+4. 파이어 스토어에 누이터에서 트윗한 값이 저장되어 있는지 확인
+```
+### 3. 파이어스토어에서 문서 읽어오기(CRUE 중 READ)
+* get 함수를 이용하여 nweet 컬렉션과 그 안에 있는 문서들을 읽어올수 있음
+ ```
+ get 함수는 add 함수처럼 단순히 1번만 실행해서 읽어올수 없음(문서의 개수가 많으면 forEach 함수로 가공해야함으로)
+ ```
+ 
 ## `[5월4일]`
 ### 1. provider 적용하기
 ```
