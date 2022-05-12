@@ -21,7 +21,10 @@ export const dbService =firebase.firestore();
 ```
 [...potato, document.data()]가 아니라 [document.data(),...potato] 와 같이 코드를 작성하면 새 데이터의 상태를 맨앞으로 배치할수 있음
 ```
- 
+### 5. 트윗 아이디 저장하기
+```
+document.id 를 사용 해 콘솔창에 id 출력
+```
 ## `[5월4일]`
 ### 1. provider 적용하기
 ```
