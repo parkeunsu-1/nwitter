@@ -16,6 +16,10 @@ if 문 안에서 attachmentUrl 을 정의하면 안됨
 -> attachmentUrl 은 if 문 안에서만 참조해야하는 변수가 되기 때문
 -> 그러면 add 함수에서 attachmentUrl 을 사용할수없음
 ```
+### 4. 파일 정리하기
+```
+EditProfile.js 파일 필요없으니 삭제
+```
 
 
 ## `[5월25일]`
