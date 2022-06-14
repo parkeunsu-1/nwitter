@@ -1,4 +1,16 @@
 # 602277107 박은수
+## `[6월14일]`
+### 1. 내비게이션에 이름 넣기
+```
+displayName을 이용
+구글 또는 깃허브 로그인을 통해 채워지는 값이여서 소셜 로그인을 통해 다시 로그인 해보면 박은수의 Profile로 표시됨
+```
+### 2. 프로필 업데이트 기능 추가하기
+```
+<Update Profile> 버튼을 누르면 newDisplayName이 바뀌도록 함
+https://firebase.google.com/docs/reference/js/v8/firebase.User 참고
+if(userObj.displayName !== newDisplayName) 을 이용해 기존 프로필과 새로 입력한 프로필이 다른 경우에만 프로필을 업데이트 하도록함
+```
 ## `[6월10일]`
 ### 1. 파이어베이스 스토리지 임포트하기
 ``` 
